@@ -72,7 +72,7 @@ function Auth() {
     
       <ul class="nav col-md-5 justify-content-end">
         <li class="nav-item"><a href="https://jeshtechnology.com/" class="nav-link px-2 fw-semibold text-secondary">Designed And Developed By
-<b> Jezh Technologies Pvt. Ltd.</b></a></li>
+<b> Jesh Technology Pvt. Ltd.</b></a></li>
       </ul>
     </footer>
 </div> 
@@ -84,4 +84,4 @@ function Auth() {
     )
 }
 
-export default Auth
+export default Auth
