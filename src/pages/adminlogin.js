@@ -26,11 +26,11 @@ function Auth() {
     
     return(
         
-        <html>
+        <html className="bg-black">
             <Head>
             <meta charset="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <title>DS - Admin Portal</title>
+            <title>DSSC - Admin Portal</title>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossOrigin="anonymous"/>
 
       </Head>
@@ -62,6 +62,20 @@ function Auth() {
   </div>
 </form>
 </div>
+<div class="container-fluid border-top border-secondary bg-black position-absolute bottom-0 end-0">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center bg-black py-2">
+    <p class="col-md-5 mb-0 fw-bold text-secondary">© 2022 Dakshin Sahodaya</p>
+
+    <a href="/" class="col-md-2 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <img src="/images/dakshilogo.jpg" className="img-fluid rounded-1" width="50" height="50" alt="..."/>
+    </a>
+    
+      <ul class="nav col-md-5 justify-content-end">
+        <li class="nav-item"><a href="https://jeshtechnology.com/" class="nav-link px-2 fw-semibold text-secondary">Designed And Developed By
+<b> Jezh Technologies Pvt. Ltd.</b></a></li>
+      </ul>
+    </footer>
+</div> 
 
       </body>
         </html>
@@ -70,4 +84,4 @@ function Auth() {
     )
 }
 
-export default Auth
+export default Auth
