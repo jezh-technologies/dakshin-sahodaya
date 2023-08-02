@@ -38,10 +38,10 @@ function AcademicRepository() {
 <h1 className="navbar-brand my-0 h1 fw-bolder text-white"><b>ACADEMIC REPOSITORY</b></h1>      
 </div>
 </nav>
-<div className="container-fluid justify-content-center" style={{width:'20.25em'}}>
+<div className="container-fluid justify-content-center" style={{width:'30em'}}>
 <form className="pb-lg-5 pt-lg-4 px-2 pb-5 pt-4">
 <div className="form-floating">
-<input type="text" className="form-control bg-dark text-white border-0" maxLength="30" placeholder="Title of the Repository" onChange={(e)=>{
+<input type="text" className="form-control bg-dark text-white border-0" placeholder="Title of the Repository" onChange={(e)=>{
         settitle(e.target.value)
       }}/>
 <label className="text-secondary fw-bold">Title of the Repository</label>
